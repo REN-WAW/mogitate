@@ -10,4 +10,7 @@
         <div class="product-list__heading content__heading">商品一覧</div>
         <input class="product-list__heading content__heading btn btn" type="submit" value="+商品を追加">
     </div>
+
+    <div class="search-form">
+        <form action="{{ route('')}}"
 </div>
