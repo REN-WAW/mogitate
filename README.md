@@ -4,9 +4,9 @@
 
 ### Dockerビルド
 
-1.git clone git@github.com:REN-WAW/mogitate.git  
+1.``git clone git@github.com:REN-WAW/mogitate.git``  
 2.DockerDesktopアプリを立ち上げる  
-3.docker-compose up -d --build  
+3.``docker-compose up -d --build``  
 >MacのM1・M2チップのPCの場合、no matching manifest for linux/arm64/v8 in the manifest list entriesのメッセージが表示されビルドができないことがあります。 エラーが発生する場合は、docker-compose.ymlファイルの「mysql」内に「platform」の項目を追加で記載してください
 >
 ```
@@ -18,8 +18,8 @@ mysql:
 
 ### Laravel環境構築
 
-1.docker-compose exec php bash  
-2.composer install  
+1.``docker-compose exec php bash``  
+2.``composer install``  
 3.「.env.example」ファイルを 「.env」ファイルに命名を変更。または、新しく.envファイルを作成  
 4..envに以下の環境変数を追加  
 ````
