@@ -17,9 +17,12 @@
             <h1 class="header__heading">mogitate</h1>
             @yield('link')
         </header>
-        <div class="content">
-            @yield('content')
-        </div>
+
+        <main>
+            <div class="content">
+                @yield('content')
+            </div>
+        </main>
     </div>
 </body>
 

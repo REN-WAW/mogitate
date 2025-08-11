@@ -1,0 +1,113 @@
+/* create.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    flex-shrink: 0;
+    width: 120px;
+    font-weight: bold;
+    color: #555;
+    margin-right: 20px;
+}
+
+.form-group .form-control,
+.form-group .form-control-file,
+.form-group .form-check-group {
+    flex-grow: 1;
+}
+
+.form-group .form-control {
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.form-check-group {
+    display: flex;
+    gap: 20px;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+}
+
+.form-check-input {
+    margin-right: 5px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: .75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: .25rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.create-form__required {
+    font-size: 0.8rem;
+    color: #dc3545;
+    margin-left: 5px;
+}
+
+.create-form__multi-select {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-left: 5px;
+}
+
+.alert.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    margin-top: .5rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
